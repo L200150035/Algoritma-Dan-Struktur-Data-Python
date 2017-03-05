@@ -1,9 +1,9 @@
-## Tugas-02 (27/02/2017): 
+## Tugas-02 27 februari 2017 
 	
 1. Buatlah program untuk menampilkan daftar kode ASCII
 2. Buat catatan tentang berbagai macam fungsi matematik yang terdapat dalam module "math"
 
-## Penyelesaian
+## jawaban
   1. Program untuk menampilkan daftar kode ASCI
 
   ```python
@@ -11,8 +11,8 @@
   print "========================================================================="
   print "|Decimal		|Hexadecimal		|character		|"
   print "========================================================================="
-  for kemal in range (127):
-    print kemal, "			|", hex(int(kemal)), "			|", chr(int(kemal)), "			|"
+  for i in range (127):
+    print i, "			|", hex(int(i)), "			|", chr(int(i)), "			|"
   print "========================================================================="
   ```
 
